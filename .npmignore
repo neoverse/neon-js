@@ -1,10 +1,12 @@
-node_modules
+/.babelrc
 /.project
-/.settings/
+/.settings
+/node_modules/
+/src/
 
-
+# Build
+/build/
 /docs/_build/
-build
 
 # Logs
 *.log
