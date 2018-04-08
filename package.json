@@ -30,6 +30,7 @@
   "version": "3.6.0",
   "main": "lib/index.js",
   "browser": "lib/browser.js",
+  "electron-renderer": "lib/index.js",
   "module": "src/index.js",
   "types": "src/index.d.ts",
   "dependencies": {
@@ -82,8 +83,7 @@
   },
   "homepage": "https://github.com/CityOfZion/neon-js#readme",
   "files": [
-    "lib/",
-    "src/"
+    "lib/"
   ],
   "nyc": {
     "require": [
